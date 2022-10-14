@@ -14,6 +14,7 @@ specifiers:
   solid-js: ^1.5.7
   solid-start: ^0.1.5
   solid-start-node: ^0.1.5
+  solid-start-vercel: ^0.1.5
   typescript: ^4.8.4
   undici: ^5.11.0
   unocss: ^0.45.29
@@ -39,6 +40,7 @@ devDependencies:
   '@unocss/preset-uno': 0.45.29
   prettier: 2.7.1
   solid-start-node: 0.1.5_bkn4tkggqbqyee2y7gtmbkohd4
+  solid-start-vercel: 0.1.5_flhje6ltnmtsromrs4qz4my3ue
   typescript: 4.8.4
   vite: 3.1.8
   vitepress: 1.0.0-alpha.20
@@ -3640,6 +3642,21 @@ packages:
       vite: 3.1.8
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /solid-start-vercel/0.1.5_flhje6ltnmtsromrs4qz4my3ue:
+    resolution: {integrity: sha512-5zGd96241JHtJf1oX/uiO9+7HEvtotFhDBjIQoeHS24bpHSsV7zZz29v1dFHMvR1kidohz7WdNwziWD7Sg8rZw==}
+    peerDependencies:
+      solid-start: '*'
+      vite: '*'
+    dependencies:
+      '@rollup/plugin-commonjs': 22.0.2_rollup@2.79.1
+      '@rollup/plugin-json': 4.1.0_rollup@2.79.1
+      '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
+      rollup: 2.79.1
+      solid-start: 0.1.5_3c2wxe5giaavn7kxcvquai6bbu
+      terser: 5.15.1
+      vite: 3.1.8
     dev: true
 
   /solid-start/0.1.5_3c2wxe5giaavn7kxcvquai6bbu:

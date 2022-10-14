@@ -18,5 +18,5 @@ export default defineConfig({
     open: true,
     host: true,
   },
-  plugins: [solid(), unocss()],
+  plugins: [solid({ adapter: 'solid-start-vercel' }), unocss()],
 });
