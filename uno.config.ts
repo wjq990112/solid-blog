@@ -11,5 +11,15 @@ export default defineConfig({
       }`,
     },
   ],
+  safelist: [
+    'discord',
+    'facebook',
+    'github',
+    'instagram',
+    'linkedin',
+    'slack',
+    'twitter',
+    'youtube',
+  ].map((icon) => `i-carbon-logo-${icon}`),
   presets: [presetUno(), presetAttributify(), presetIcons()],
 });
