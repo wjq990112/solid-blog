@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsxImportSource": "solid-js",
+    "jsx": "preserve",
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
+    "baseUrl": "./",
+    "paths": {
+      "~": ["./src"],
+      "~/*": ["./src/*"],
+      "solidocs/*": ["./docs/.solidocs/*"]
+    }
+  },
+  "include": ["./docs", "./src", "./docs/.solidocs/**/*"]
+}

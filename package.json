@@ -1,0 +1,35 @@
+{
+  "name": "solid-blog",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "lint": "prettier -w src"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.33",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@unocss/preset-attributify": "^0.45.29",
+    "@unocss/preset-icons": "^0.45.29",
+    "@unocss/preset-uno": "^0.45.29",
+    "prettier": "^2.7.1",
+    "solid-start-node": "^0.1.5",
+    "typescript": "^4.8.4",
+    "unocss": "^0.45.29",
+    "vite": "^3.1.8",
+    "vitepress": "1.0.0-alpha.20",
+    "vitest": "^0.24.1"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.0",
+    "@solidjs/router": "^0.5.0",
+    "solid-js": "^1.5.7",
+    "solid-start": "^0.1.5",
+    "undici": "^5.11.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
