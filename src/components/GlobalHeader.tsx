@@ -9,7 +9,14 @@ const GlobalHeader: Component = () => {
   const { logo, siteTitle, nav = [], socialLinks } = themeConfig;
 
   return (
-    <header border="b gray-100" flex="~" h="16" justify="between" shadow="~">
+    <header
+      border="b gray-100"
+      box="border"
+      flex="~"
+      h="16"
+      justify="between"
+      shadow="~"
+    >
       <Show when={logo || siteTitle}>
         <A
           class="h-full flex items-center no-underline text-blue-500 hover:text-blue-600"

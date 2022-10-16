@@ -9,6 +9,7 @@
   "type": "module",
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.8",
+    "@mdx-js/rollup": "^2.1.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@unocss/preset-attributify": "^0.45.29",
@@ -27,6 +28,7 @@
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.5.0",
     "solid-js": "^1.5.7",
+    "solid-mdx": "^0.0.6",
     "solid-start": "^0.1.5",
     "undici": "^5.11.0",
     "unocss": "^0.45.29"

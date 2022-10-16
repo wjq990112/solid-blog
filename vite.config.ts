@@ -1,6 +1,7 @@
 /// <reference types="vitest" />
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
+import mdx from '@mdx-js/rollup';
 import solid from 'solid-start/vite';
 import unocss from 'unocss/vite';
 
@@ -18,5 +19,17 @@ export default defineConfig({
     open: true,
     host: true,
   },
-  plugins: [solid({ adapter: 'solid-start-vercel' }), unocss()],
+  plugins: [
+    // @ts-ignore
+    {
+      enforce: 'pre',
+      ...mdx({
+        jsx: true,
+        jsxImportSource: 'solid-js',
+        providerImportSource: 'solid-mdx',
+      }),
+    },
+    solid({ adapter: 'solid-start-vercel', extensions: ['.md', '.mdx'] }),
+    unocss(),
+  ],
 });

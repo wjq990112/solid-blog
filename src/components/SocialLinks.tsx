@@ -8,7 +8,7 @@ interface Props {
 
 const SocialLinks: Component<Props> = (props) => {
   return (
-    <ul flex="~" h="full" items="center" list="none" p="l-0 r-6" m="0">
+    <ul flex="~" h="full" items="center" list="none" m="0" p="l-0 r-6">
       <For each={props.list}>
         {(item) => (
           <li h="full" flex="~" items="center" p="x-2">
