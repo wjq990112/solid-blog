@@ -8,30 +8,30 @@
   },
   "type": "module",
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.8",
+    "@iconify-json/carbon": "^1.1.9",
     "@mdx-js/rollup": "^2.1.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@types/testing-library__jest-dom": "^5.14.5",
-    "@unocss/preset-attributify": "^0.45.29",
-    "@unocss/preset-icons": "^0.45.29",
-    "@unocss/preset-uno": "^0.45.29",
+    "@unocss/preset-attributify": "^0.45.30",
+    "@unocss/preset-icons": "^0.45.30",
+    "@unocss/preset-uno": "^0.45.30",
     "prettier": "^2.7.1",
     "solid-start-node": "^0.1.5",
     "solid-start-vercel": "^0.1.5",
     "typescript": "^4.8.4",
     "vite": "^3.1.8",
-    "vitepress": "^1.0.0-alpha.20",
-    "vitest": "^0.24.1"
+    "vitepress": "^1.0.0-alpha.22",
+    "vitest": "^0.24.3"
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.1.33",
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.5.0",
-    "solid-js": "^1.5.7",
+    "solid-js": "^1.6.0",
     "solid-mdx": "^0.0.6",
-    "solid-start": "^0.1.5",
+    "solid-start": "^0.1.8",
     "undici": "^5.11.0",
-    "unocss": "^0.45.29"
+    "unocss": "^0.45.30"
   },
   "engines": {
     "node": ">=16"
